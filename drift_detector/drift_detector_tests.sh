@@ -3,7 +3,10 @@
 command()
 {
     echo "Parsing:" $1
-    # --exit-status
+    # --exit-status - return code is based on result of query
+    # .individualResults[-1] - pick the last object in the array of results (this will be the most recent)
+    # | not - Flyway returns 'true' if drift detected, we need to invert this to be able to get a non-zero return code from the --exit-status flag
+    # Limitations: If you have a report with multiple report types in it (check, code ..) then it will look for the last object in the array regardless
     jq --exit-status '.individualResults[-1].driftDetected | not' $1
     global_result=$?
 }
