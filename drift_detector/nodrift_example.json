@@ -1,0 +1,13 @@
+{
+  "individualResults": [
+    {
+      "driftDetected": false,
+      "onlyInSource": [],
+      "onlyInTarget": [],
+      "differences": [],
+      "database": "prod",
+      "operation": "drift",
+      "timestamp": "2022-10-14T09:45:41.961776"
+    }
+  ]
+}
