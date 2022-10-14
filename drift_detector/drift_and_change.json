@@ -1,0 +1,46 @@
+{
+  "individualResults": [
+    {
+      "driftDetected": false,
+      "onlyInSource": [],
+      "onlyInTarget": [],
+      "differences": [],
+      "database": "prod",
+      "operation": "drift",
+      "timestamp": "2022-10-14T09:45:41.961776"
+    },
+    {
+      "driftDetected": true,
+      "onlyInSource": [],
+      "onlyInTarget": [],
+      "differences": [
+        {
+          "objectType": "Table",
+          "name": "Employee",
+          "schema": "dbo",
+          "definitionBefore": "CREATE TABLE [dbo].[Employee]\\r\\n(\\r\\n[empID] [int] NULL,\\r\\n[firstName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,\\r\\n[lastName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,\\r\\n[empSalary] [int] NULL\\r\\n)\\r\\nGO\\r\\n",
+          "definitionAfter": "CREATE TABLE [dbo].[Employee]\\r\\n(\\r\\n[empID] [int] NULL,\\r\\n[firstName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,\\r\\n[lastName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,\\r\\n[empSalary] [int] NULL,\\r\\n[contactNumber] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,\\r\\n[contactEmail] [nvarchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL\\r\\n)\\r\\nGO\\r\\n"
+        }
+      ],
+      "database": "prod",
+      "operation": "drift",
+      "timestamp": "2022-10-14T09:41:40.060146"
+    },
+    {
+      "onlyInSource": [],
+      "onlyInTarget": [],
+      "differences": [
+        {
+          "objectType": "Table",
+          "name": "Employee",
+          "schema": "dbo",
+          "definitionBefore": "CREATE TABLE [dbo].[Employee]\\r\\n(\\r\\n[empID] [int] NULL,\\r\\n[firstName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,\\r\\n[lastName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,\\r\\n[empSalary] [int] NULL\\r\\n)\\r\\nGO\\r\\n",
+          "definitionAfter": "CREATE TABLE [dbo].[Employee]\\r\\n(\\r\\n[empID] [int] NULL,\\r\\n[firstName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,\\r\\n[lastName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,\\r\\n[empSalary] [int] NULL,\\r\\n[empCity] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL\\r\\n)\\r\\nGO\\r\\n"
+        }
+      ],
+      "database": "prod",
+      "operation": "changes",
+      "timestamp": "2022-10-14T13:46:28.518246"
+    }
+  ]
+}
