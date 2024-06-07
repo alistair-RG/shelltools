@@ -2,8 +2,7 @@
 menu: contribute
 subtitle: Contribute
 ---
-<div id="contribute">
-    <h1>Contributing to Flyway</h1>
+# Contributing to Flyway
 
     <p>Thank you for your desire to contribute to Flyway! There are many ways you can help!</p>
 
@@ -69,14 +68,14 @@ subtitle: Contribute
     <p>Is there an issue in the issue tracker that you would like to implement? Great! We have a whole guide on how to
         get set up and how to proceed.</p>
     <p>
-        <a href="Contribute/code" style="text-decoration: none; background: rgb(204,0,0); padding: 6px 40px; border-radius: 10px; color: white; font-weight: bold;">Submit an awesome pull-request <i
+        <a href="Code - Submit your Changes" style="text-decoration: none; background: rgb(204,0,0); padding: 6px 40px; border-radius: 10px; color: white; font-weight: bold;">Submit an awesome pull-request <i
             class="fa fa-arrow-right"></i></a>
     </p>
 
     <h2 class="padded-top--tight">Contribute database support</h2>
     <p>Discovered that Flyway doesn't support your favorite database platform? Why not contribute the support yourself.</p>
     <p>
-        <a href="Contribute/flyway community database support" style="text-decoration: none; background: rgb(204,0,0); padding: 6px 40px; border-radius: 10px; color: white; font-weight: bold;">Contributing database support <i
+        <a href="Flyway Community Database Support" style="text-decoration: none; background: rgb(204,0,0); padding: 6px 40px; border-radius: 10px; color: white; font-weight: bold;">Contributing database support <i
             class="fa fa-arrow-right"></i></a>
     </p>
 
@@ -88,15 +87,10 @@ subtitle: Contribute
         <a style="text-decoration: none; background: rgb(204,0,0); padding: 6px 40px; border-radius: 10px; color: white; font-weight: bold;" href="https://flywaydb.org/documentation/contribute/hallOfFame">Hall of Fame <i class="fa fa-arrow-right"></i></a>
     </p>
 
-    # Further Details
-</div>
+# Further Details
 
 ## Getting setup
 - [Environment Setup](<Code - Dev Environment Setup>)
 
 ## Changes to Flyway's behavior
 - [Flyway Plugin Development](<Code - Flyway Plugin Development>)
-- [Submit your Changes](<Code - Submit your Changes>)
-
-## Adding new database support
-- [Flyway Community Database Support](<Flyway Community Database Support>)
