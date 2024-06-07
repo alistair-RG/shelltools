@@ -85,16 +85,16 @@ You should be able to open the project and see a number of modules.
 ### How to test your plugin
 #### Testing with a prebuilt Flyway CLI package
 This is a quick and easy way to verify that things are working as you expect
-1. Download and install the latest [Flyway CLI](Usage/Command-line) package
+1. Download and install the latest [Flyway CLI]() package
 1. Put your freshly built `flyway-database-foo.jar` and JDBC driver in the `/jars` folder of your Flyway install directory.
-1. [Configure](Configuration) Flyway to talk to your database
+1. [Configure]() Flyway to talk to your database
 1. Run your tests
 
 
 #### Testing Flyway with source code
 This is more complex but allows you to set breakpoints and debug more easily.
 
-Get your environment setup for [developing flyway](Contribute/Code)
+Get your environment setup for [developing flyway]()
 
 Copy the file `/flyway-commandline/src/main/assembly/flyway.toml.example` to an accessible location on your machine and rename it to `flyway.toml`. 
 This location will be a temporary 'scratch' area for testing. Use this copy to set up the following properties:
