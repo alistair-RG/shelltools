@@ -1,10 +1,16 @@
 ---
 subtitle: Contributing
 ---
-This documentation site covers how to build and contribute to Flyway development
+This guide is for people wishing to __contribute code__ to Flyway:
 
-[Environment Setup](<Code - Dev Environment Setup>)
-[How to contribute](<Code - How to Contribute>)
-[Flyway Community Database Support](<Flyway Community Database Support>)
-[Flyway Plugin Development](<Code - Flyway Plugin Development>)
-[Submit your Changes](<Code - Submit your Changes>)
+<img src="assets/code.png"/>
+
+## Getting setup
+- [Environment Setup](<Code - Dev Environment Setup>)
+
+## Changes to Flyway's behavior
+- [Flyway Plugin Development](<Code - Flyway Plugin Development>)
+- [Submit your Changes](<Code - Submit your Changes>)
+
+## Adding new database support
+- [Flyway Community Database Support](<Flyway Community Database Support>)
